@@ -30,7 +30,7 @@ repos:
     hooks:
     -   id: autopep8
 -   repo: https://github.com/nsonaniya2010/detect-secrets-test
-    rev: v0.5
+    rev: v0.6
     hooks:
     -   id: detect-secrets
-        args: ['-n', '--baseline', 'baseline', '--exclude-files', '^go.sum$|^Gopkg.lock$|^package-lock.json']
+        args: ['-n', '--baseline', 'baseline']
