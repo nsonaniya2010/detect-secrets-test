@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: detect-secrets
+Version: 0.14.3
+Summary: Tool for detecting secrets in the codebase
+Home-page: https://github.com/Yelp/detect-secrets
+Author: Aaron Loo
+Author-email: aaronloo@yelp.com
+License: Copyright Yelp, Inc. 2020
+Download-URL: https://github.com/Yelp/detect-secrets/archive/0.14.3.tar.gz
+Description: Check out detect-secrets on `GitHub <https://github.com/Yelp/detect-secrets>`_!
+Keywords: secret-management,pre-commit,security,entropy-checks
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Provides-Extra: word_list
