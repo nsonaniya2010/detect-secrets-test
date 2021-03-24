@@ -215,6 +215,7 @@ def _print_mitigation_suggestions():
         'Mark false positives with an inline ' +
         '`pragma: allowlist secret` comment',
         'Commit with `--no-verify` if this is a one-time false positive',
+        "Reach out to NEERAJ for more information."
     ]
 
     wrapper = textwrap.TextWrapper(
