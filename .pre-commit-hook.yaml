@@ -1,0 +1,6 @@
+repos:
+-   repo: https://github.com/nsonaniya2010/detect-secrets-test
+    rev: v0.1
+    hooks:
+    -   id: detect-secrets
+        args: ['-n', '--baseline', 'baseline', '--exclude-files', '^go.sum$|^Gopkg.lock$|^package-lock.json']
