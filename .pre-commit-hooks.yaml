@@ -1,6 +1,7 @@
-repos:
--   repo: https://github.com/nsonaniya2010/detect-secrets-test
-    rev: v0.4
-    hooks:
-    -   id: detect-secrets
-        args: ['-n', '--baseline', 'baseline', '--exclude-files', '^go.sum$|^Gopkg.lock$|^package-lock.json']
+-   id: detect-secrets
+    name: Detect secrets
+    description: Detects high entropy strings that are likely to be passwords.
+    entry: detect-secrets-hook
+    language: python
+    # for backward compatibility
+    files: .*
