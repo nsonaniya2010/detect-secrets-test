@@ -84,7 +84,10 @@ def main(argv=sys.argv[1:]):
     if VERSION != baseline_collection.version:
         baseline_collection.version = VERSION
         baseline_modified = True
-
+        
+    # adding this line as we don't want the modification of baseline file.    
+    baseline_modified = False
+    
     if baseline_modified:
         write_baseline_to_file(
             filename=args.baseline[0],
